@@ -4,69 +4,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arpit Christian - Cybersecurity Professional</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Arpit Christian | Cybersecurity Expert</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="header-content">
-      <h1>Arpit Christian</h1>
-      <p>Cybersecurity Professional | CompTIA Security+ | ISO 27001 | Azure | BCP/DR | Risk Management</p>
-      <div class="contact">
-        <a href="mailto:christia019@gannon.edu">christia019@gannon.edu</a> |
-        <a href="https://www.linkedin.com/in/arpit242" target="_blank">LinkedIn</a> |
-        (814) 841-0960 | Erie, PA
+    <div class="container header-container">
+      <div class="intro">
+        <h1>Arpit Christian</h1>
+        <p>Cybersecurity Professional | CompTIA Security+ | Azure | ISO 27001 | DR/BCP | Risk Management</p>
+        <div class="social">
+          <a href="mailto:christia019@gannon.edu">Email</a>
+          <a href="https://www.linkedin.com/in/arpit242" target="_blank">LinkedIn</a>
+          <a href="Arpit_Christian_Resume.pdf" download class="btn">Download Resume (PDF)</a>
+        </div>
       </div>
-      <a class="btn" href="Arpit_Christian_Resume.pdf" download>Download Resume (PDF)</a>
+      <div class="profile-img">
+        <img src="profile.jpg" alt="Arpit Christian">
+      </div>
     </div>
   </header>
 
-  <main>
-    <section>
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="summary">
       <h2>Professional Summary</h2>
-      <p>Cybersecurity professional with 7+ years of experience in IT operations, infrastructure security, disaster recovery, and compliance frameworks (ISO 27001, NIST CSF). Demonstrated success in risk mitigation, incident response, DR simulations, and regulatory alignment. Holds CompTIA Security+ and a Master's degree in Cybersecurity from Gannon University.</p>
+      <p>Cybersecurity professional with 7+ years of experience in IT operations, infrastructure security, disaster recovery, and compliance (ISO 27001, NIST CSF). Proven expertise in risk mitigation, incident response, and regulatory alignment. Passionate about securing enterprise environments and delivering resilient systems.</p>
     </section>
 
-    <section>
+    <section id="skills">
       <h2>Technical Skills</h2>
-      <ul>
-        <li>Security Tools: Nessus, OpenVAS, Splunk</li>
-        <li>Compliance: ISO 27001, NIST CSF</li>
-        <li>Cloud: Azure, Active Directory, Office 365</li>
-        <li>BCP/DR: Risk Mitigation, DR Simulations, Fault Domain Isolation</li>
-        <li>Scripting: PowerShell, Python, Bash</li>
-      </ul>
+      <div class="skills-grid">
+        <ul>
+          <li>Security: Nessus, OpenVAS, Splunk</li>
+          <li>Compliance: ISO 27001, NIST CSF</li>
+        </ul>
+        <ul>
+          <li>Cloud: Azure, Office 365, Active Directory</li>
+          <li>Scripting: PowerShell, Python, Bash</li>
+        </ul>
+        <ul>
+          <li>DR/BCP: Simulations, Mitigation, Isolation</li>
+          <li>Monitoring: Endpoint Protection, Auditing</li>
+        </ul>
+      </div>
     </section>
 
-    <section>
+    <section id="experience">
       <h2>Experience</h2>
       <div class="job">
         <h3>Cybersecurity & IT Business Development Manager – Hike POS (2021–2023)</h3>
         <ul>
-          <li>Led vulnerability scanning, ISO 27001 alignment, and disaster recovery processes</li>
-          <li>Enhanced infrastructure resilience across distributed retail systems</li>
+          <li>Led ISO 27001-aligned assessments and endpoint hardening.</li>
+          <li>Oversaw DR drills and continuous monitoring improvements.</li>
         </ul>
       </div>
       <div class="job">
         <h3>IT Operations Manager – Rush Security Ltd (2018–2021)</h3>
         <ul>
-          <li>Managed DR drills, endpoint hardening, and Azure-based cloud migration</li>
+          <li>Directed risk analysis, Azure migration, and compliance operations.</li>
         </ul>
       </div>
       <div class="job">
         <h3>IT Business Analyst – Day Lewis (2016–2018)</h3>
         <ul>
-          <li>Led UAT, ticket triage, and technical support for internal IT systems</li>
+          <li>Led UAT testing, incident triage, and policy updates.</li>
         </ul>
       </div>
     </section>
 
-    <section>
+    <section id="education">
       <h2>Education</h2>
-      <p><strong>Master of Science in Information Assurance & Cybersecurity</strong> – Gannon University (May 2025)<br/>GPA: 3.73/4.0 | Research Award Winner</p>
+      <p><strong>Master of Science in Information Assurance & Cybersecurity</strong> – Gannon University (May 2025)<br/>GPA: 3.73 | Research Award Winner</p>
     </section>
 
-    <section>
+    <section id="certifications">
       <h2>Certifications</h2>
       <ul>
         <li>CompTIA Security+</li>
@@ -74,18 +96,18 @@
       </ul>
     </section>
 
-    <section>
+    <section id="projects">
       <h2>Projects & Awards</h2>
       <ul>
-        <li>Published: “Using Machine Learning to Predict Internship Effectiveness in Employability” – ECCE 2025</li>
-        <li>Awarded: Research Excellence at Gannon University</li>
-        <li>Built AI-based model for real-time threat detection in EHR systems</li>
+        <li>Research Paper: AI-driven Threat Detection in EHR (Awarded)</li>
+        <li>Publication: “Using ML to Predict Internship Effectiveness” (ECCE 2025)</li>
+        <li>Developed DR Playbooks and Fault Domain Simulations in Azure</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Arpit Christian | Built with GitHub Pages</p>
+    <p>© 2025 Arpit Christian | Built with GitHub Pages | Erie, PA</p>
   </footer>
 </body>
 </html>
